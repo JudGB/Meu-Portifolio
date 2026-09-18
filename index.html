@@ -6,6 +6,7 @@
     <title>Judson Gabriel Portifolio</title>
     <link rel="stylesheet" href="Style.CSS">    
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
     <section id="Home">
         <!-- ─── SLIDESHOW DE FUNDO ────────────────────────────────────────────
@@ -15,9 +16,11 @@
                 e ajuste o animation-delay e a duração total conforme indicado lá.
         ─────────────────────────────────────────────────────────────────────── -->
         <div class="slideshow">
-            <div class="slide"></div> <!-- imagem 1: definida no CSS -->
-            <div class="slide"></div> <!-- imagem 2: definida no CSS -->
-            <!-- <div class="slide"></div>  imagem 3: descomente quando adicionar -->
+            <div class="slide"></div> <!-- 1 -->
+            <div class="slide"></div> <!-- 2 -->
+            <div class="slide"></div> <!-- 3 -->
+            <div class="slide"></div> <!-- 4 -->
+            <div class="slide"></div> <!-- 5 -->
         </div>
         <div class="slideshow-overlay"></div>
         <!-- ──────────────────────────────────────────────────────────────────── -->
@@ -102,16 +105,58 @@
                 </div>
 
             </div>
+            <div class="Port3">
+                <div class="Port3-card">
+                    <div class="Art">
+                        <a href="https://takeoutyew1930.itch.io/voidrun" target="_blank"><img src="imagens\Portifolio\3° jogo\Img3°.jpeg" alt=""></a>
+                    </div>    
+                    <div class="Text">
+                        <p id="idt03"> A game where you are a black hole, who has to swallow stars and dodge planets and rockets (which don't fit into your diet), survive as long as possible and collect as many stars as you can. The game still had more things that I intend to add, but time didn't allow it and also my skills, since I'm still learning how to make games, I hope it's fun at least</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Port4">
+                <div class="Port4-card">
+                    <div class="Art">
+                        <a href="https://takeoutyew1930.itch.io/rolling-pumpkin" target="_blank"><img src="https://img.itch.zone/aW1nLzIzNjkyMTYxLmdpZg==/original/FkYlHA.gif" alt=""></a>
+                    </div>    
+                    <div class="Text">
+                        <p id="idt03"> The game was developed by five high school students with almost no game development experience, who participated in the Game Jam Plus at the Space Gamer headquarters in Porto Velho, RO. The Honest Purple Whales team is grateful for this unique opportunity. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="Port5">
+                <div class="Port5-card">
+                    <div class="Art">
+                        <a href="https://github.com/JudGB/flapping-of-wings" target="_blank"><img src="imagens\Portifolio\5° jogo\screenshotgame.png" alt=""></a>
+                    </div>    
+                    <div class="Text">
+                        <p id="idt04"> “flapping of wings” was an incomplete game developed in just one week for a programming competition, where the short timeframe led my focus entirely toward engineering and code logic over visual aesthetics. The core of the project is a text-based psychological narrative designed to challenge the player's perception through immersive dialogues and unusual system behaviors. The main programming feature breaks the fourth wall using GML by interacting directly with the user’s operating system; it captures the PC's local username for dynamic AI dialogues and creates a silent persistence file (.temp) to detect if a player is lying about their first time playing. The entire project was developed in the GameMaker engine using GML, focusing heavily on file I/O manipulation and conditional branching logic.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Port6">
+                <div class="Port6-card">
+                    <div class="Art">
+                        <a href="https://github.com/JudGB/Morceguinho/tree/main" target="_blank">
+                            <video src="imagens\Portifolio\6° jogo\GIFMorceguinho.mp4" autoplay loop muted></video>
+                        </a>
+                    </div>    
+                    <div class="Text">
+                        <p id="idt03"> “Morceguinho” was a game developed to put programming and game design concepts into practice, focusing heavily on mechanics and systems. In the game, the player controls a bat exploring procedurally generated caves in search of the best completion times, navigating through dynamic grids that constantly challenge the player's movement and reflexes. The core mechanics include constant falling, flapping wings to stay airborne, and executing dashes through double clicks. The entire project was developed in the GameMaker engine using GML, with the procedural generation code standing out as the biggest development challenge.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="FaleComigo">
         <div class="Contact-card">
             <h1 id="idt05">Contact Me</h1>
             <form action="https://formspree.io/f/mredpgaw"method="POST">
-                <input id="name" placeholder="Name" type="text" name="nome" value="" /> #name
-                <input id="subject" placeholder="Subject" type="text" name="subject" value="" /> #subject
-                <input id="email" placeholder="Email" type="text" name="email" value="" /> #email
-                <textarea id="mensagem" placeholder="Mensagem" name="mensagem" rows="5" cols="33"></textarea> #mensagem
+                <input id="name" placeholder="Name" type="text" name="nome" value="" /> 
+                <input id="subject" placeholder="Subject" type="text" name="subject" value="" /> 
+                <input id="email" placeholder="Email" type="text" name="email" value="" /> 
+                <textarea id="mensagem" placeholder="Mensagem" name="mensagem" rows="5" cols="33"></textarea> 
                 <!-- your other form fields go here -->
                 <button type="submit">Send</button>
             </form>
