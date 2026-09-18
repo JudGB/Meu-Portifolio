@@ -14,7 +14,7 @@ O layout foi planejado para carregar rapidamente e ser acessível em qualquer di
 ## Demonstração Visual
 
 <p align="center">
-  <img src="https://github.com/JudGB/Meu-Portifolio/blob/main/imagens/gifsiterepo.gif" width="600" />
+  <img src="https://github.com/JudGB/Meu-Portifolio/blob/main/imagens/2026-09-1814-49-03-ezgif.com-video-to-gif-converter.gif" width="600" />
 </p>
 
 
